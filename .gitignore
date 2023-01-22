@@ -1,0 +1,7 @@
+vivado/*/*.cache
+vivado/*/*.gen
+vivado/*/*.ip_user_files
+vivado/*/*.sim
+vivado/*/*.hw
+vivado/*/vivado*.jou
+vivado/*/vivado*.log
