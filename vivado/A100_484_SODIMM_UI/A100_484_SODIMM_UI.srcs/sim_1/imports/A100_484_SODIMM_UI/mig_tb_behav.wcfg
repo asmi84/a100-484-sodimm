@@ -11,15 +11,19 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="124,205.508334 ns"></ZoomStartTime>
-      <ZoomEndTime time="124,277.608335 ns"></ZoomEndTime>
-      <Cursor1Time time="124,217.525000 ns"></Cursor1Time>
+      <ZoomStartTime time="1,854,854.323702 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,854,926.823703 ns"></ZoomEndTime>
+      <Cursor1Time time="1,854,914.740369 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="163"></NameColumnWidth>
-      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="50" />
+   <wvobject fp_name="/mig_tb/ddr3_reset_n" type="logic">
+      <obj_property name="ElementShortName">ddr3_reset_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_reset_n</obj_property>
+   </wvobject>
    <wvobject fp_name="/mig_tb/ddr3_addr" type="array">
       <obj_property name="ElementShortName">ddr3_addr[15:0]</obj_property>
       <obj_property name="ObjectShortName">ddr3_addr[15:0]</obj_property>
@@ -27,10 +31,6 @@
    <wvobject fp_name="/mig_tb/ddr3_ba" type="array">
       <obj_property name="ElementShortName">ddr3_ba[2:0]</obj_property>
       <obj_property name="ObjectShortName">ddr3_ba[2:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/mig_tb/ddr3_cas_n" type="logic">
-      <obj_property name="ElementShortName">ddr3_cas_n</obj_property>
-      <obj_property name="ObjectShortName">ddr3_cas_n</obj_property>
    </wvobject>
    <wvobject fp_name="/mig_tb/ddr3_ck_p" type="array">
       <obj_property name="ElementShortName">ddr3_ck_p[1:0]</obj_property>
@@ -48,9 +48,9 @@
       <obj_property name="ElementShortName">ddr3_ras_n</obj_property>
       <obj_property name="ObjectShortName">ddr3_ras_n</obj_property>
    </wvobject>
-   <wvobject fp_name="/mig_tb/ddr3_reset_n" type="logic">
-      <obj_property name="ElementShortName">ddr3_reset_n</obj_property>
-      <obj_property name="ObjectShortName">ddr3_reset_n</obj_property>
+   <wvobject fp_name="/mig_tb/ddr3_cas_n" type="logic">
+      <obj_property name="ElementShortName">ddr3_cas_n</obj_property>
+      <obj_property name="ObjectShortName">ddr3_cas_n</obj_property>
    </wvobject>
    <wvobject fp_name="/mig_tb/ddr3_we_n" type="logic">
       <obj_property name="ElementShortName">ddr3_we_n</obj_property>
